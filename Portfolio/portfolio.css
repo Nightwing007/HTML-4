@@ -1,0 +1,66 @@
+h1{
+    color : rgb(145, 3, 3,0.95);
+    }
+    .Header *{
+        border : solid;
+        margin-left : 100px;
+        margin-right : 100px;
+    }
+    .Header{
+        background-color: #ffe6007c;
+        display : flex;
+        justify-content: space-between;
+    }
+    .Menu{
+        margin-top: 25px;
+        padding : 50px
+    }
+    .Grid{
+        background-color: #360036;
+        color : #ff0505;
+        display: flex;
+        font-style: oblique;
+        flex-wrap: wrap;
+        padding : 90px ;
+        justify-content: space-evenly;
+    }
+    .Footer{
+        background-color: #7afc003a;
+        border: 8px dotted;
+        border-color: #ff0505;
+        color : #ff0505;
+        display: flex;
+        justify-content: flex-end;
+    }
+    body{
+        background-color: #808080;
+    }
+    .con
+    {
+        background-color: #031372;
+        color: #ff1010;
+    }
+
+    a:link{
+        color:#ff1010;
+    }
+    a:visited{
+        color:rgb(0, 178, 248);
+    }
+    .Item{
+        position : relative;
+    }
+    .Item p{
+        position : absolute;
+        top : 50%;
+        bottom: 50%;
+        transform : translate(75%,75%);
+        opacity: 0;
+    }
+
+    .Item:hover p{
+        opacity : 1;
+    }
+    .Item:hover img{
+        opacity: 0.33;
+    }
